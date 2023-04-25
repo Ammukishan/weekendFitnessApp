@@ -11,7 +11,6 @@ public class Attend {
 		Scanner sc = new Scanner(System.in);
 		Customer cust = new Customer();
 		Attend attnd = new Attend();
-		
 		System.out.println("Enter you customer ID: (Sample input: cust01,cust02...");
 		custID = sc.next();
 		boolean isCustomerValid = cust.validateCustomer(custID);
@@ -23,7 +22,6 @@ public class Attend {
 		}
 		
 		System.out.println("Availble bookings with this customer ID:"+custID);
-
 		System.out.println("======================================================");
 		System.out.println("BookingId\t Fitness \t Date\t\t Status");
 		System.out.println("======================================================");
