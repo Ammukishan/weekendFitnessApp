@@ -40,6 +40,7 @@ public class Attend {
 				count++;
 			}
 		}
+		
 		System.out.println("--------------------------------------------------------");
 		if(count ==0) {
 			System.out.println("You don't have any pending sessions to attend.. ");
