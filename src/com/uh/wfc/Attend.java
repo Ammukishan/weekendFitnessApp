@@ -70,9 +70,7 @@ public class Attend {
 		for( String booking:bookingDetails) {
 			if(booking.split(",")[0].equals(String.valueOf(bookingId))) {
 			//	0	1		2			3		4	5		6		7		8		9			10
-			// Id, custID,fitnessname, month,date ,status, price, mem_count,rating, review,  Fit_classID
-
-				
+			// Id, custID,fitnessname, month,date ,status, price, mem_count,rating, review,  Fit_classID				
 			String tempString = 
 							booking.split(",")[0]+","+
 							booking.split(",")[1]+","+
